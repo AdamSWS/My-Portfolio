@@ -1,0 +1,35 @@
+.contactScreen {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.content {
+  position: relative;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 10%;
+  width: 60vw;
+  height: 80vh;
+  border-radius: 20px;
+}
+
+.logoRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.logo {
+  margin: 0 25px;
+  width: 100px;
+  height: auto;
+  cursor: pointer;
+}

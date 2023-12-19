@@ -1,0 +1,51 @@
+.projectsScreen {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.content {
+  position: relative;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 10%;
+  width: 60vw;
+  height: 80vh;
+  border-radius: 20px;
+}
+
+.title {
+  font-size: 3.5em;
+}
+
+.text {
+  font-size: 1.5em;
+}
+
+.carouselButton {
+  padding: 10px 20px;
+  background-color: #1e2124;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+}
+
+button:first-of-type {
+  left: 10px;
+}
+
+button:last-of-type {
+  right: 10px;
+}
+
+.image {
+  width: 20%;
+}

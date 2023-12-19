@@ -1,0 +1,47 @@
+.customCard {
+    width: 60vw;
+    height: 60vh;
+    max-height: 60vh;
+    margin: 20px;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    overflow: hidden; /* Prevent overflow */
+}
+
+.cardContent, .cardImageContainer {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%; /* Full height of the CustomCard */
+}
+
+.contentWrapper {
+    background-color: #6c757d;
+    border-radius: 5px;
+    flex-grow: 1; /* Makes the content wrapper fill the space */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 20px;
+    align-items: center; /* Center items horizontally */
+}
+
+.cardImage {
+    max-width: 80%; /* Reduce the image size */
+    height: auto; /* Maintain aspect ratio */
+    align-self: center; /* Center the image inside the column */
+}
+
+.cardTitle {
+    font-size: 3.5em;
+    text-align: center; /* Center text horizontally */
+    margin: auto; /* Align vertically */
+}
+
+.cardText {
+    font-size: 1.32em;
+    text-align: center; /* Center text horizontally */
+    margin: auto; /* Align vertically */
+}
